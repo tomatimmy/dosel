@@ -235,7 +235,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       data-menu-style="horizontal"
     >
       <li className="dropitem">
-        <a
+        <Link
           href="/"
           className={
             home.some((page) => page.routerPath === route.pathname)
@@ -244,11 +244,11 @@ const HeaderMenuContent = ({ float = "" }) => {
           }
         >
           <span className="title">Home</span>
-        </a>
+        </Link>
       </li>
 
       <li className="dropitem">
-        <a
+        <Link
           href="/listing-grid-v1"
           className={
             listing.some((parent) => {
@@ -261,11 +261,11 @@ const HeaderMenuContent = ({ float = "" }) => {
           }
         >
           <span className="title">Propiedades</span>
-        </a>
+        </Link>
       </li>
 
       <li className="dropitem">
-        <a
+        <Link
           href="#"
           className={
             pages.some((page) => page.routerPath === route.pathname)
@@ -275,7 +275,7 @@ const HeaderMenuContent = ({ float = "" }) => {
         >
           <span className="title">Pages</span>
           <span className="arrow"></span>
-        </a>
+        </Link>
         <ul className="sub-menu ">
           {pages.map((item) => (
             <li key={item.id}>
@@ -294,7 +294,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       {/* End .dropitem */}
 
       <li className="dropitem">
-        <a
+        <Link
           href="/blog-list-1"
           className={
             blog.some(
@@ -307,7 +307,7 @@ const HeaderMenuContent = ({ float = "" }) => {
           }
         >
           <span className="title">Blog</span>
-        </a>
+        </Link>
       </li>
       {/* End .dropitem */}
 

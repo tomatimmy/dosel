@@ -32,11 +32,11 @@ const index = () => {
               <div className="form_grid">
                 <h4 className="mb5">Envíenos un mensaje</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+{/*                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   gravida quis libero eleifend ornare. Maecenas mattis enim at
                   arcu feugiat, sit amet blandit nisl iaculis. Donec lacus odio,
                   malesuada eu libero sit amet, congue aliquam leo. In hac
-                  habitasse platea dictumst.
+                  habitasse platea dictumst. */}
                 </p>
                 <Form />
               </div>

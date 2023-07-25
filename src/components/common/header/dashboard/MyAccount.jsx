@@ -23,7 +23,7 @@ const MyAccount = () => {
           alt="e1.png"
         />
         <p>
-          Ali Tufan <br />
+          Dosel <br />
           <span className="address">alitufan@gmail.com</span>
         </p>
       </div>

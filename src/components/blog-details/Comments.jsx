@@ -20,7 +20,7 @@ const Comments = () => {
     {
       id: 2,
       img: "2",
-      name: "Ali Tufan",
+      name: "Dosel",
       ratings: (
         <>
           <Ratings />

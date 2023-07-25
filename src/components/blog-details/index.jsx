@@ -51,13 +51,13 @@ const index = () => {
                         <Image
                           width={40}
                           height={40}
-                          src="/assets/images/property/pposter1.png"
+                          src="/assets/images/favicon.png"
                           alt="pposter1.png"
                         />
                       </a>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">Ali Tufan</a>
+                      <a href="#">Dosel</a>
                     </li>
                     <li className="list-inline-item">
                       <span className="flaticon-calendar"></span>

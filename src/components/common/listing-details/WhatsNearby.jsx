@@ -5,7 +5,7 @@ const WhatsNearby = () => {
     {
       id: 1,
       styleClass: "",
-      title: " Education",
+      title: " Escuelas",
       icon: "flaticon-college-graduation",
       singleItem: [
         {
@@ -46,7 +46,7 @@ const WhatsNearby = () => {
     {
       id: 2,
       styleClass: "style2",
-      title: "Health & Medical",
+      title: "Hospitales",
       icon: "flaticon-heartbeat",
       singleItem: [
         {
@@ -87,7 +87,7 @@ const WhatsNearby = () => {
     {
       id: 3,
       styleClass: "style3",
-      title: " Transportation",
+      title: " Transportes",
       icon: "flaticon-front-of-bus",
       singleItem: [
         {

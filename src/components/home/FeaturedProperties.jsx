@@ -66,7 +66,6 @@ const FeaturedProperties = () => {
 
             <Link href={`/listing-details-v1/${item.id}`} className="fp_price">
               ${item.price}
-              <small>/mo</small>
             </Link>
           </div>
         </div>
@@ -98,17 +97,15 @@ const FeaturedProperties = () => {
           <div className="fp_footer">
             <ul className="fp_meta float-start mb0">
               <li className="list-inline-item">
-                <Link href="/agent-v2">
                   <Image
                     width={40}
                     height={40}
                     src={item.posterAvatar}
                     alt="pposter1.png"
                   />
-                </Link>
               </li>
               <li className="list-inline-item">
-                <Link href="/agent-v2">{item.posterName}</Link>
+                <Link href="/">{item.posterName}</Link>
               </li>
             </ul>
             <div className="fp_pdate float-end">{item.postedYear}</div>

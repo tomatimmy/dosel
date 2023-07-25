@@ -2,15 +2,15 @@ const PropertyFeatures = () => {
   const propertyFeatures = [
     {
       id: 1,
-      list: ["Air Conditioning", "Barbeque", "Dryer", "Gym", "Laundry"],
+      list: ["Aire Acondicionado", "Parrilla", "Secadora de ropa", "Gimnasio", "Lavadero"],
     },
     {
       id: 2,
-      list: ["Lawn", "Microwave", "Outdoor Shower", "Refrigerator", "Sauna"],
+      list: ["Jardín", "Microondas", "Ducha Exterior", "Refrigerador", "Sauna"],
     },
     {
       id: 3,
-      list: ["Swimming Pool", "TV Cable", "Washer", "WiFi", "Window Coverings"],
+      list: ["Piscina", "TV x Cable", "Lavadora de ropa", "WiFi", "Baulera"],
     },
   ];
   return (

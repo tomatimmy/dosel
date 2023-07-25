@@ -15,18 +15,18 @@ const FloorPlans = () => {
               aria-controls="collapseOne"
             >
               <ul className="mb0 d-flex align-items-cener flex-wrap">
-                <li className="d-inline-flex list-inline-item">First Floor</li>
+                <li className="d-inline-flex list-inline-item">Primer piso</li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Size:</p> <span>1267 Sqft</span>
+                  <p>Tamaño:</p> <span>45 M2</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Rooms:</p> <span>670 Sqft</span>
+                  <p>Habitaciones:</p> <span>20 M2</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Baths:</p> <span>530 Sqft</span>
+                  <p>Baños:</p> <span>10 M2</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Price:</p> <span>$1489</span>
+                  <p>Precio x M2:</p> <span>$1489</span>
                 </li>
               </ul>
             </button>
@@ -47,7 +47,7 @@ const FloorPlans = () => {
               alt="floor_plan.png"
             />
             <p>
-              Plan description. Lorem ipsum dolor sit amet, consectetuer
+              Lorem ipsum dolor sit amet, consectetuer
               adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
               laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
               veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
@@ -68,18 +68,18 @@ const FloorPlans = () => {
               aria-controls="collapseTwo"
             >
               <ul className="mb0 d-flex align-items-cener flex-wrap">
-                <li className="d-inline-flex list-inline-item">First Floor</li>
+                <li className="d-inline-flex list-inline-item">Primer piso</li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Size:</p> <span>1267 Sqft</span>
+                  <p>Tamaño:</p> <span>45 M2</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Rooms:</p> <span>670 Sqft</span>
+                  <p>Habitaciones:</p> <span>20 M2</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Baths:</p> <span>530 Sqft</span>
+                  <p>Baños:</p> <span>10 M2</span>
                 </li>
                 <li className="d-inline-flex list-inline-item">
-                  <p>Price:</p> <span>$1489</span>
+                  <p>Precio x M2:</p> <span>$1489</span>
                 </li>
               </ul>
             </button>

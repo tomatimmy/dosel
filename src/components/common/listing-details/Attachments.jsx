@@ -7,8 +7,7 @@ const Attachments = () => {
         </div>
         <div className="details">
           <h5>
-            <span className="flaticon-download text-thm pr10"></span> Demo Word
-            Document
+            <span className="flaticon-download text-thm pr10"></span> Word Brochure
           </h5>
         </div>
       </div>
@@ -20,8 +19,7 @@ const Attachments = () => {
         </div>
         <div className="details">
           <h5>
-            <span className="flaticon-download text-thm pr10"></span> Demo pdf
-            Document
+            <span className="flaticon-download text-thm pr10"></span> PDF Brochure
           </h5>
         </div>
       </div>

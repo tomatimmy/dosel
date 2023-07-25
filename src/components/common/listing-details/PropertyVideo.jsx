@@ -21,17 +21,7 @@ const PropertyVideo = () => {
             href="#description"
             role="tab"
           >
-            Property video
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            className="nav-link"
-            data-bs-toggle="tab"
-            href="#listing"
-            role="tab"
-          >
-            Virtual Tour
+            Video de la propiedad
           </a>
         </li>
       </ul>

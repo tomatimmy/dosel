@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #ff5a5f;
+    --color-primary: #78ac00;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -7,9 +7,6 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
-.contain {
-    object-fit: contain;
 }
 .static-title,
 .transform-none {
@@ -384,13 +381,14 @@ $sidebar-color: #333;
 }
 header.header-nav.menu_style_home_one .ace-responsive-menu li.add_listing {
     border: 2px solid transparent;
+    border-color: #78ac00;
     transition: 0.3s ease-in-out;
 }
 header.header-nav.menu_style_home_one .ace-responsive-menu li.add_listing:hover {
-    background-color: #fff !important;
-    border-color: var(--color-primary);
+    background-color: #78ac00 !important;
+    border-color: white;
     a {
-        color: var(--color-primary) !important;
+        color: white !important;
     }
 }
 .stricky-fixed {

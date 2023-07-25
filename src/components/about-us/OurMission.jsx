@@ -28,24 +28,15 @@ const OurMission = () => {
       <div className="col-lg-8 col-xl-7">
         <div className="about_content">
           <p className="large">
-            Mauris ac consectetur ante, dapibus gravida tellus. Nullam aliquet
-            eleifend dapibus. Cras sagittis, ex euismod lacinia tempor.
+            Somos una empresa dedicada a la comericalización de tierras para desarrollo comunitario, vivienda familiar e incentivo conservacionista en la Península de Osa, Costa Rica.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            quis ligula eu lectus vulputate porttitor sed feugiat nunc. Mauris
-            ac consectetur ante, dapibus gravida tellus. Nullam aliquet eleifend
-            dapibus. Cras sagittis, ex euismod lacinia tempor, lectus orci
-            elementum augue, eget auctor metus ante sit amet velit.
+            Nos especializamos en la venta de propiedades en la Península de Osa, priorizando el desarrollo sostenible e incentivando la conservación del ecosistema.
           </p>
           <p>
-            Maecenas quis viverra metus, et efficitur ligula. Nam congue augue
-            et ex congue, sed luctus lectus congue. Integer convallis
-            condimentum sem. Duis elementum tortor eget condimentum tempor.
-            Praesent sollicitudin lectus ut pharetra pulvinar. Donec et libero
-            ligula. Vivamus semper at orci at placerat.Placeat Lorem ipsum dolor
-            sit amet, consectetur adipisicing elit. Quod libero amet, laborum
-            qui nulla quae alias tempora.
+            Conectamos a personas y ONGs con propietarios originarios de la Península, con el fin de desarrollar proyectos de viviendas sostenibles, turismo comunitario y conservacion.
+            ¿Por qué lo hacemos?
+            La Península de Osa es considerado «el lugar biológicamente más intenso del mundo en términos de biodiversidad» -según el National Geographic- y necesitamos que así siga siendo. Dentro de sus fronteras, se encuentran los más diversos ecosistemas, compuesto por bosques montanos, bosques nubosos, praderas y manglares, como así también, por un increíble volumen y variedad de vida silvestre. Nuestra misión es promover el desarrollo sostenible y conciente dentro de este entorno, para así ayudar a salvaguardar este ecosistema y sus comunidades, apoyando a familias locales y sus emprendimientos.
           </p>
 
           <ul className="ab_counting">

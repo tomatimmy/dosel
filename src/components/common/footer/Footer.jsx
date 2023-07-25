@@ -7,10 +7,10 @@ const Footer = () => {
     <>
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3 pr0 pl0">
         <div className="footer_about_widget">
-          <h4>About Site</h4>
+          <h4>Dosel Lands Network</h4>
           <p>
-            We’re reimagining how you buy, sell and rent. It’s now easier to get
-            into a place you love. So let’s do this, together.
+            Estamos reinventando la forma de comprar y vender Propiedades en Costa Rica. Ahora
+            es más fácil encontrar ese lugar que tanto sueñas. Hagamos juntos este viaje.
           </p>
         </div>
       </div>
@@ -18,22 +18,22 @@ const Footer = () => {
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_qlink_widget">
-          <h4>Quick Links</h4>
+          <h4>Links</h4>
           <ul className="list-unstyled">
             <li>
-              <Link href="/">About Us</Link>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/">Terms & Conditions</Link>
+              <Link href="/listing-grid-v1">Propiedades</Link>
             </li>
             <li>
-              <Link href="/">User’s Guide</Link>
+              <Link href="/about-us">Nuestro equipo</Link>
             </li>
             <li>
-              <Link href="/">Support Center</Link>
+              <Link href="/blog-list-1">Blog</Link>
             </li>
             <li>
-              <Link href="/">Press Info</Link>
+              <Link href="/terms">Términos & Condiciones</Link>
             </li>
           </ul>
         </div>
@@ -42,22 +42,22 @@ const Footer = () => {
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_contact_widget">
-          <h4>Contact Us</h4>
+          <h4>Contactenos</h4>
           <ul className="list-unstyled">
             <li>
-              <a href="mailto:info@findhouse.com">info@findhouse.com</a>
+              <a href="mailto:info@findhouse.com">info@dosel.cr</a>
             </li>
             <li>
-              <a href="#">Collins Street West, Victoria</a>
+              <a href="#">Casa Sandara el Banbú, Puerto Jimenez.</a>
             </li>
             <li>
-              <a href="#">8007, Australia.</a>
+              <a href="#">60702, Puntarenas, Costa Rica.</a>
             </li>
             <li>
               <a href="tel:+4733378901">+1 246-345-0699</a>
             </li>
             <li>
-              <a href="tel:+4733378901">+1 246-345-0695</a>
+              <a href="tel:+50670135020">+506 7013-5020</a>
             </li>
           </ul>
         </div>
@@ -66,11 +66,11 @@ const Footer = () => {
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_social_widget">
-          <h4>Follow us</h4>
+          <h4>Síguenos</h4>
           <ul className="mb30">
             <Social />
           </ul>
-          <h4>Subscribe</h4>
+          <h4>Subscríbete</h4>
           <SubscribeForm />
         </div>
       </div>

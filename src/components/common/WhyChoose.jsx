@@ -3,23 +3,20 @@ const WhyChoose = ({ style = "" }) => {
     {
       id: 1,
       icon: "flaticon-high-five",
-      title: "Trusted By Thousands",
-      descriptions: `Aliquam dictum elit vitae mauris facilisis at dictum urna
-      dignissim donec vel lectus vel felis.`,
+      title: "Confianza",
+      descriptions: `Nuestros partners y clientes garantizan la fiabilidad de operar con nosotros.`,
     },
     {
       id: 2,
       icon: "flaticon-home-1",
-      title: "Wide Renge Of Properties",
-      descriptions: `Aliquam dictum elit vitae mauris facilisis at dictum urna
-      dignissim donec vel lectus vel felis.`,
+      title: "Catálogo vasto",
+      descriptions: `Contamos con un catálogo de oportunidades único en Costa Rica.`,
     },
     {
       id: 3,
       icon: "flaticon-profit",
-      title: "Financing Made Easy",
-      descriptions: `Aliquam dictum elit vitae mauris facilisis at dictum urna
-      dignissim donec vel lectus vel felis.`,
+      title: "Transparencia",
+      descriptions: `La mayor transparencia en el mercado con un 100% de operaciones exitosas.`
     },
   ];
 

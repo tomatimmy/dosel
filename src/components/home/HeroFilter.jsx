@@ -4,10 +4,9 @@ const HeroFilter = () => {
     return (
         <div className="home_content">
             <div className="home-text text-center">
-                <h2 className="fz55">Find Your Dream Home</h2>
+                <h2 className="fz55">Encuentra la propiedad de tus sueños</h2>
                 <p className="fz18 color-white">
-                    From as low as $10 per day with limited time offer
-                    discounts.
+                    Tenemos la más amplia variedad de Propiedades en Costa Rica
                 </p>
             </div>
             {/* End .home-text */}

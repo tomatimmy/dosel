@@ -4,15 +4,11 @@ const GlobalSelectBox = () => {
       <li className="list-inline-item">
         <div className="candidate_revew_select">
           <select className="selectpicker w100 show-tick form-select">
-            <option>Bathrooms</option>
+            <option>Baños</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
+            <option>+</option>
           </select>
         </div>
       </li>
@@ -21,15 +17,12 @@ const GlobalSelectBox = () => {
       <li className="list-inline-item">
         <div className="candidate_revew_select">
           <select className="selectpicker w100 show-tick form-select">
-            <option>Bedrooms</option>
+            <option>Habitaciones</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
             <option>4</option>
             <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
           </select>
         </div>
       </li>
@@ -38,7 +31,7 @@ const GlobalSelectBox = () => {
       <li className="list-inline-item">
         <div className="candidate_revew_select">
           <select className="selectpicker w100 show-tick form-select">
-            <option>Year built</option>
+            <option>Año</option>
             <option>2013</option>
             <option>2014</option>
             <option>2015</option>
@@ -51,23 +44,6 @@ const GlobalSelectBox = () => {
         </div>
       </li>
       {/* End li */}
-
-      <li className="list-inline-item">
-        <div className="candidate_revew_select">
-          <select className="selectpicker w100 show-tick form-select">
-            <option>Built-up Area</option>
-            <option>Adana</option>
-            <option>Ankara</option>
-            <option>Antalya</option>
-            <option>Bursa</option>
-            <option>Bodrum</option>
-            <option>Gaziantep</option>
-            <option>İstanbul</option>
-            <option>İzmir</option>
-            <option>Konya</option>
-          </select>
-        </div>
-      </li>
     </>
   );
 };

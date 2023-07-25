@@ -21,7 +21,7 @@ const GlobalFilter = ({ className = "" }) => {
             <input
               type="text"
               className="form-control"
-              placeholder="Enter keyword..."
+              placeholder="Ingrese palabra clave..."
               onChange={(e) => dispatch(addKeyword(e.target.value))}
             />
           </div>
@@ -32,13 +32,11 @@ const GlobalFilter = ({ className = "" }) => {
           <div className="search_option_two">
             <div className="candidate_revew_select">
               <select className="selectpicker w100 form-select show-tick">
-                <option value="">Property Type</option>
-                <option>Apartment</option>
-                <option>Bungalow</option>
-                <option>Condo</option>
-                <option>House</option>
-                <option>Land</option>
-                <option>Single Family</option>
+                <option value="">Tipo de propiedad</option>
+                <option>Finca</option>
+                <option>Lote</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
               </select>
             </div>
           </div>
@@ -50,7 +48,7 @@ const GlobalFilter = ({ className = "" }) => {
             <input
               type="text"
               className="form-control"
-              placeholder="Location"
+              placeholder="Ubicación"
               onChange={(e) => dispatch(addLocation(e.target.value))}
             />
             <label>
@@ -69,7 +67,7 @@ const GlobalFilter = ({ className = "" }) => {
               data-bs-auto-close="outside"
               aria-expanded="false"
             >
-              <span>Price</span>
+              <span>Precio</span>
               <label htmlFor="InputEmail2">
                 <span className="fa fa-angle-down"></span>
               </label>
@@ -92,7 +90,7 @@ const GlobalFilter = ({ className = "" }) => {
                 data-bs-auto-close="outside"
                 aria-expanded="false"
               >
-                Advanced <i className="flaticon-more pl10 flr-520"></i>
+                Avanzado <i className="flaticon-more pl10 flr-520"></i>
               </span>
 
               <div className="dropdown-content dropdown-menu ">
@@ -127,7 +125,7 @@ const GlobalFilter = ({ className = "" }) => {
               type="submit"
               className="btn btn-thm"
             >
-              Search
+              Buscar
             </button>
           </div>
         </li>

@@ -32,8 +32,8 @@ const Index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center mb40">
-                <h2>Featured Properties</h2>
-                <p>Handpicked properties by our team.</p>
+                <h2>Propiedades Destacadas</h2>
+                <p>Elegidas cuidadosamente por nuestro equipo.</p>
               </div>
             </div>
             <div className="col-lg-12">
@@ -51,8 +51,8 @@ const Index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Find Properties in These Cities</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2>Encuentra propiedades en estas ubicaciones</h2>
+                <p>Tenemos propiedades estratégicamente seleccionadas en todo el país.</p>
               </div>
             </div>
           </div>
@@ -68,8 +68,8 @@ const Index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Why Choose Us</h2>
-                <p>We provide full service at every step.</p>
+                <h2>¿Por qué elegirnos?</h2>
+                <p>Porque ofrecemos un servicio integral desde el principio al fin.</p>
               </div>
             </div>
           </div>
@@ -85,8 +85,8 @@ const Index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Articles & Tips</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2>Artículos y Tips</h2>
+                <p>Información interesante y relevante para que puedas estar siempre al día.</p>
               </div>
             </div>
           </div>
@@ -102,8 +102,8 @@ const Index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Our Partners</h2>
-                <p>We only work with the best companies around the globe</p>
+                <h2>Nuestros partners</h2>
+                <p>Trabajamos en conjunto con las mejores firmas del Real Estate</p>
               </div>
             </div>
           </div>

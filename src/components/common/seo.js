@@ -13,7 +13,7 @@ const Seo = ({ pageTitle, font }) => (
       />
       <meta
         name="description"
-        content="FindHouse - Real Estate React Template"
+        content="Dosel Lands Network - Real Estate en Costa Rica"
       />
       <meta name="ibthemes" content="ATFN" />
       <meta

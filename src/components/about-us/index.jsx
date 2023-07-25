@@ -32,7 +32,7 @@ const index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2 className="mt0">Our Mission Is To FindHouse</h2>
+                <h2 className="mt0">Nuestra misión es ayudarte a encontrar la casa de tus sueños</h2>
               </div>
             </div>
           </div>
@@ -46,8 +46,8 @@ const index = () => {
           <div className="row mt80">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Why Choose Us</h2>
-                <p>We provide full service at every step.</p>
+                <h2>¿Por qué elegirnos?</h2>
+                <p>Porque ofrecemos un servicio integral desde el principio al fin.</p>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Our Team</h2>
+                <h2>Nuestro equipo</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>
             </div>
@@ -81,26 +81,6 @@ const index = () => {
         </div>
       </section>
 
-      {/* <!-- Our Testimonials --> */}
-      <section className="our-testimonials">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center mb20">
-                <h2>Testimonials</h2>
-                <p>Here could be a nice sub title</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="testimonial_grid_slider style2 gutter-x15">
-                <Testimonial />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* <!-- Our Partners --> */}
       <section id="our-partners" className="our-partners">
@@ -108,8 +88,8 @@ const index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Our Partners</h2>
-                <p>We only work with the best companies around the globe</p>
+                <h2>Nuestros partners</h2>
+                <p>Trabajamos en conjunto con las mejores firmas del Real Estate</p>
               </div>
             </div>
           </div>

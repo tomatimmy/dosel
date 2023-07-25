@@ -79,19 +79,7 @@ const BlogDetailsDynamic = () => {
                       <span className="flaticon-calendar"></span>
                     </li>
                     <li className="list-inline-item">
-                      <a href="#">January 16, 2020</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <span className="flaticon-view"></span>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#"> 341 views</a>
-                    </li>
-                    <li className="list-inline-item">
-                      <span className="flaticon-chat"></span>
-                    </li>
-                    <li className="list-inline-item">
-                      <a href="#">15</a>
+                      <a href="#">Enero 16, 2020</a>
                     </li>
                   </ul>
                   <div className="thumb">
@@ -168,77 +156,13 @@ const BlogDetailsDynamic = () => {
                       in convallis libero ligula ut eros.
                     </p>
                   </div>
-                  <ul className="blog_post_share">
-                    <li>
-                      <p>Share</p>
-                    </li>
-                    <Social />
-                  </ul>
-                  {/* End .blog_post_share */}
                 </div>
                 {/* End .mbp_thumb_post */}
 
-                <div className="mbp_pagination_tab">
-                  <Pagination />
-                </div>
-                {/* End mbp_pagination_tab */}
-
-                <div className="product_single_content mb30">
-                  <div className="mbp_pagination_comments">
-                    <div className="total_review">
-                      <h4>896 Reviews</h4>
-                      <ul className="review_star_list mb0 pl10">
-                        <Ratings />
-                      </ul>
-                      <a className="tr_outoff pl10" href="#">
-                        ( 4.5 out of 5 )
-                      </a>
-                      <a className="write_review float-end fn-xsd" href="#">
-                        Write a Review
-                      </a>
-                    </div>
-                    {/* End .total_review */}
-
-                    <Comments />
-                    <div className="custom_hr"></div>
-                  </div>
-                </div>
-                {/* End .product_single_content  */}
-
-                <div className="bsp_reveiw_wrt">
-                  <h4>Write a Review</h4>
-
-                  <ul className="review_star">
-                    <li className="list-inline-item">
-                      <span className="sspd_review">
-                        <ul>
-                          <Ratings />
-                        </ul>
-                      </span>
-                    </li>
-                    <li className="list-inline-item pr15">
-                      <p>Your Rating & Review</p>
-                    </li>
-                  </ul>
-                  <ReviewBox />
-                </div>
-                {/* End .bsp_reveiw_wrt */}
-              </div>
-              {/* End .main_blog_post_content */}
-
-              <div className="row">
-                <div className="col-lg-12 mb20">
-                  <h4>Related Posts</h4>
-                </div>
-                <RelatedPost />
               </div>
             </div>
             {/* End .col */}
 
-            <div className="col-lg-4">
-              <BlogSidebar />
-            </div>
-            {/* End Sidebar column */}
           </div>
           {/* End .row */}
         </div>

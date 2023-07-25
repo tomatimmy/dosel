@@ -6,20 +6,20 @@ const OurMission = () => {
     {
       id: 1,
       icon: "flaticon-user",
-      number: "80,123",
-      meta: "Customers to date",
+      number: "+1000",
+      meta: "Clientes",
     },
     {
       id: 2,
       icon: "flaticon-home",
-      number: "$74 Billion",
-      meta: "In home sales",
+      number: "+100 Propiedaes",
+      meta: "Publicadas",
     },
     {
       id: 3,
       icon: "flaticon-transfer",
-      number: "$468 Million",
-      meta: "In Savings",
+      number: "+$15.000.000",
+      meta: "En ventas",
     },
   ];
 

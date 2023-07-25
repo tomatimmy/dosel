@@ -54,7 +54,7 @@ const Blog = () => {
                 </li>
               </ul>
               <a className="fp_pdate float-end text-thm" href="#">
-                Read More <span className="flaticon-next"></span>
+                Leer más <span className="flaticon-next"></span>
               </a>
             </div>
             {/* End fb_footer */}

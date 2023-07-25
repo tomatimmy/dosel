@@ -4,7 +4,7 @@ const TermsCondions = () => {
   const termsContent = [
     {
       id: 1,
-      title: "Privacy Policy",
+      title: "Políticas de privacidad",
       text1: `Curabitur massa magna, tempor in blandit id, porta in ligula.
       Aliquam laoreet nisl massa, at interdum mauris sollicitudin et.
       Mauris risus lectus, tristique at nisl at, pharetra tristique
@@ -19,7 +19,7 @@ const TermsCondions = () => {
     },
     {
       id: 2,
-      title: "Our Terms",
+      title: "Nuestros términos",
       text1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
       mollis et sem sed sollicitudin. Donec non odio neque. Aliquam
       hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque
@@ -57,25 +57,6 @@ const TermsCondions = () => {
               <p>{item.text2}</p>
             </div>
           ))}
-        </div>
-      </div>
-      {/* End .col */}
-
-      <div className="col-lg-4 col-xl-4">
-        <div className="terms_condition_widget">
-          <h4 className="title">Navigation</h4>
-          <div className="widget_list">
-            <ul className="list_details">
-              {navigationList.map((list) => (
-                <li key={list.id}>
-                  <Link href={list.routeLink}>
-                    <i className="fa fa-caret-right mr10"></i>
-                    {list.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
       </div>
     </div>

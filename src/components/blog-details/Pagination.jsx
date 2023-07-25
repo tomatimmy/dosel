@@ -7,7 +7,7 @@ const Pagination = () => {
             <span className="flaticon-back"></span>
           </a>
           <div className="detls">
-            <h5>Previous Post</h5> <p> Housing Markets That</p>
+            <h5>Post anterior</h5> <p> Housing Markets That</p>
           </div>
         </div>
       </div>

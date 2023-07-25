@@ -43,10 +43,6 @@ const index = () => {
               </div>
             </div>
             {/* End .col */}
-
-            <div className="col-lg-4 col-xl-4">
-              <BlogSidebar />
-            </div>
             {/* End Sidebar column */}
           </div>
           {/* End .row */}

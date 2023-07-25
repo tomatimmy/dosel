@@ -10,7 +10,7 @@ const WhatsNearby = () => {
       singleItem: [
         {
           id: 1,
-          name: "Eladia &apos;s Kids",
+          name: "Eladia Kids",
           miles: "3.13",
           totalReview: "8895",
           ratings: (
@@ -51,7 +51,7 @@ const WhatsNearby = () => {
       singleItem: [
         {
           id: 1,
-          name: "Eladia &apos;s Kids",
+          name: "Eladia Kids",
           miles: "3.13",
           totalReview: "8895",
           ratings: (
@@ -92,7 +92,7 @@ const WhatsNearby = () => {
       singleItem: [
         {
           id: 1,
-          name: "Eladia &apos;s Kids",
+          name: "Eladia Kids",
           miles: "3.13",
           totalReview: "8895",
           ratings: (

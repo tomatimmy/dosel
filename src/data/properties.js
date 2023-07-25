@@ -6,25 +6,25 @@ module.exports = [
     type: "Apartamento",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Sale"],
+    saleTag: ["Destacado", "En venta"],
     garages: "yes",
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "1",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "1",
       },
       {
-        name: "SqFt",
-        number: "8280",
+        name: "M2",
+        number: "82",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -51,25 +51,25 @@ module.exports = [
     type: "Casa tipo Bungalow",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     garages: "no",
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "2",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
-        number: "5280",
+        name: "M2",
+        number: "125",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -96,25 +96,25 @@ module.exports = [
     type: "Casa tipo Bungalow",
     title: "Finca",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     garages: "others",
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "3",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
-        number: "3280",
+        name: "M2",
+        number: "110",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -141,24 +141,24 @@ module.exports = [
     type: "Casa",
     title: "Finca con salida al mar",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "5",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "5",
       },
       {
-        name: "SqFt",
-        number: "5280",
+        name: "M2",
+        number: "76",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -186,24 +186,24 @@ module.exports = [
     type: "Lote",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "4",
       },
       {
-        name: "SqFt",
-        number: "6280",
+        name: "M2",
+        number: "160",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -230,24 +230,24 @@ module.exports = [
     type: "Finca",
     title: "Finca con salida al mar",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
-        number: "9500",
+        name: "M2",
+        number: "95",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -274,24 +274,24 @@ module.exports = [
     type: "Apartamento",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "3",
       },
       {
-        name: "SqFt",
-        number: "10280",
+        name: "M2",
+        number: "102",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -318,24 +318,24 @@ module.exports = [
     type: "Apartamento",
     title: "Finca con salida al mar",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
-        number: "6880",
+        name: "M2",
+        number: "68",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -362,24 +362,24 @@ module.exports = [
     type: "Finca",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "6",
       },
       {
-        name: "SqFt",
-        number: "120000",
+        name: "M2",
+        number: "120",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -406,24 +406,24 @@ module.exports = [
     type: "Apartamento",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "6",
       },
       {
-        name: "SqFt",
-        number: "5280",
+        name: "M2",
+        number: "52",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -450,24 +450,24 @@ module.exports = [
     type: "Villa",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "1",
       },
       {
-        name: "SqFt",
-        number: "5280",
+        name: "M2",
+        number: "96",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -495,24 +495,24 @@ module.exports = [
     type: "Casa tipo Bungalow",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
-        number: "5280",
+        name: "M2",
+        number: "144",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -540,24 +540,24 @@ module.exports = [
     type: "Apartamento",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "3",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -585,24 +585,24 @@ module.exports = [
     type: "Apartamento",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "4",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -630,24 +630,24 @@ module.exports = [
     type: "Finca",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "5",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -675,24 +675,24 @@ module.exports = [
     type: "Casa",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "6",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -720,24 +720,24 @@ module.exports = [
     type: "Apartamento",
     title: "Finca con salida al mar",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -764,24 +764,24 @@ module.exports = [
     type: "Villa",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -808,24 +808,24 @@ module.exports = [
     type: "Finca",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -851,24 +851,24 @@ module.exports = [
     type: "Finca",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -895,24 +895,24 @@ module.exports = [
     type: "Villa",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -938,24 +938,24 @@ module.exports = [
     type: "Finca",
     title: "Sweet Family Home",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -982,24 +982,24 @@ module.exports = [
     type: "Apartamento",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1026,24 +1026,24 @@ module.exports = [
     type: "Villa",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1069,24 +1069,24 @@ module.exports = [
     type: "Finca",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1113,24 +1113,24 @@ module.exports = [
     type: "Finca",
     title: "Propiedad en Venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1157,24 +1157,24 @@ module.exports = [
     type: "Villa",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1204,15 +1204,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1247,15 +1247,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1291,15 +1291,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1332,24 +1332,24 @@ module.exports = [
     type: "Apartamento",
     title: "Finca con salida al mar",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "1",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1377,24 +1377,24 @@ module.exports = [
     type: "Casa tipo Bungalow",
     title: "Propiedad renovada en venta",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1422,24 +1422,24 @@ module.exports = [
     type: "Apartamento",
     title: "Finca con salida al mar",
     location: `Calle San Pedro 1421, Puerto Jimenez, CP 60254`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["Destacado", "En venta"],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "3",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
     posterAvatar: "/assets/images/favicon.png",
     posterName: "Dosel",
-    postedYear: "1 year ago",
+    postedYear: "1 mes atrás",
     imgList: [
       "/assets/images/property/2.jpg",
       "/assets/images/property/3.jpg",
@@ -1470,15 +1470,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "4",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1515,15 +1515,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "5",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1560,15 +1560,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "6",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1605,15 +1605,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],
@@ -1656,15 +1656,15 @@ module.exports = [
     saleTag: [],
     itemDetails: [
       {
-        name: "Beds",
+        name: "Habitaciones",
         number: "4",
       },
       {
-        name: "Baths",
+        name: "Baños",
         number: "2",
       },
       {
-        name: "SqFt",
+        name: "M2",
         number: "5280",
       },
     ],

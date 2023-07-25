@@ -50,18 +50,13 @@ const FeaturedProperties = () => {
             </ul>
             {/* End .tag */}
 
-            <ul className="icon mb0">
-              <li className="list-inline-item">
-                <a href="#">
-                  <span className="flaticon-transfer-1"></span>
-                </a>
-              </li>
+{/*             <ul className="icon mb0">
               <li className="list-inline-item">
                 <a href="#">
                   <span className="flaticon-heart"></span>
                 </a>
               </li>
-            </ul>
+            </ul> */}
             {/* End .icon */}
 
             <Link href={`/listing-details-v1/${item.id}`} className="fp_price">

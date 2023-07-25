@@ -48,13 +48,10 @@ const Footer = () => {
               <a href="mailto:info@findhouse.com">info@dosel.cr</a>
             </li>
             <li>
-              <a href="#">Casa Sandara el Banbú, Puerto Jimenez.</a>
+              <a href="#">Casa Sandara el Banbú, Puerto Jimenez</a>
             </li>
             <li>
               <a href="#">60702, Puntarenas, Costa Rica.</a>
-            </li>
-            <li>
-              <a href="tel:+4733378901">+1 246-345-0699</a>
             </li>
             <li>
               <a href="tel:+50670135020">+506 7013-5020</a>

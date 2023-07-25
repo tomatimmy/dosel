@@ -3,31 +3,29 @@ import Social from "../common/footer/Social";
 const AddressSidebar = () => {
   return (
     <div className="contact_localtion">
-      <h4>Contact Us</h4>
+      <h4>Contactenos</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida quis
-        libero eleifend ornare. habitasse platea dictumst.
+        Estamos para ayudarte a encontrar esa propiedad que tanto estás buscando.
       </p>
       <div className="content_list">
-        <h5>Address</h5>
+        <h5>Dirección</h5>
         <p>
-          2301 Ravenswood Rd Madison, <br />
-          WI 53711
+          Casa Sandara, El Banbú, Puerto Jimenez, CP 60702, Puntarenas, Costa Rica.
         </p>
       </div>
       <div className="content_list">
-        <h5>Phone</h5>
-        <p>(315) 905-2321</p>
+        <h5>Teléfono</h5>
+        <p>(+506) 7013-5020</p>
       </div>
       <div className="content_list">
         <h5>Mail</h5>
-        <p>info@findhouse.com</p>
+        <p>info@dosel.cr</p>
       </div>
       <div className="content_list">
-        <h5>Skype</h5>
-        <p>findhouse.com</p>
+        <h5>Web</h5>
+        <p>https://dosel.cr</p>
       </div>
-      <h5>Follow Us</h5>
+      <h5>Nuestras Redes Sociales</h5>
       <ul className="contact_form_social_area">
         <Social />
       </ul>

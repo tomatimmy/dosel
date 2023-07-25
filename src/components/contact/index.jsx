@@ -30,7 +30,7 @@ const index = () => {
           <div className="row">
             <div className="col-lg-7 col-xl-8">
               <div className="form_grid">
-                <h4 className="mb5">Send Us An Email</h4>
+                <h4 className="mb5">Envíenos un mensaje</h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                   gravida quis libero eleifend ornare. Maecenas mattis enim at

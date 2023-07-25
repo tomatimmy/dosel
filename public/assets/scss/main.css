@@ -18257,7 +18257,6 @@ canvas {
   top: 38px;
   width: 170px;
   z-index: 2;
-  box-shadow: 0px 1px 4px 0px rgba(255, 90, 95, 0.3);
 }
 
 #main2 .filter_open_btn {
@@ -18268,7 +18267,7 @@ canvas {
 #open.flaticon-close:before,
 #open2.flaticon-filter-results-button:before,
 #open2.flaticon-close:before {
-  background-color: #f53c41;
+  background-color: var(--color-primary);
   left: 0;
   position: absolute;
   width: 48px;

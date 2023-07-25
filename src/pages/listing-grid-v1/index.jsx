@@ -5,7 +5,7 @@ import GridV1 from "../../components/listing-grid/grid-v1";
 const index = () => {
   return (
     <>
-      <Seo pageTitle="Simple Listing – Grid V1" />
+      <Seo pageTitle="Propiedades en venta en Costa Rica" />
       <GridV1 />
     </>
   );

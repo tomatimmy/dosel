@@ -5,12 +5,12 @@ const WhatsNearby = () => {
     {
       id: 1,
       styleClass: "",
-      title: " Educación",
+      title: " Education",
       icon: "flaticon-college-graduation",
       singleItem: [
         {
           id: 1,
-          name: "Eladia Kids",
+          name: "Eladia &apos;s Kids",
           miles: "3.13",
           totalReview: "8895",
           ratings: (
@@ -46,12 +46,12 @@ const WhatsNearby = () => {
     {
       id: 2,
       styleClass: "style2",
-      title: "Hospitales",
+      title: "Health & Medical",
       icon: "flaticon-heartbeat",
       singleItem: [
         {
           id: 1,
-          name: "Eladia Kids",
+          name: "Eladia &apos;s Kids",
           miles: "3.13",
           totalReview: "8895",
           ratings: (
@@ -87,12 +87,12 @@ const WhatsNearby = () => {
     {
       id: 3,
       styleClass: "style3",
-      title: " Transportes",
+      title: " Transportation",
       icon: "flaticon-front-of-bus",
       singleItem: [
         {
           id: 1,
-          name: "Eladia Kids",
+          name: "Eladia &apos;s Kids",
           miles: "3.13",
           totalReview: "8895",
           ratings: (
@@ -141,8 +141,16 @@ const WhatsNearby = () => {
           {item.singleItem.map((val) => (
             <div className="single_line" key={val.id}>
               <p className="para">
-                {val.name} <span>({val.miles} km's)</span>
+                {val.name} <span>({val.miles} miles)</span>
               </p>
+              <ul className="review">
+                <Ratings />
+                <li className="list-inline-item">
+                  <span className="total_rive_count">
+                    {val.totalReview} reviews
+                  </span>
+                </li>
+              </ul>
             </div>
           ))}
         </div>

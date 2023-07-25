@@ -52,21 +52,20 @@ const FilteringItem = () => {
 
   // advanced state
   const [getAdvanced, setAdvanced] = useState([
-    { id: uuidv4(), name: "Air Conditioning" },
-    { id: uuidv4(), name: "Barbeque" },
-    { id: uuidv4(), name: "Gym" },
-    { id: uuidv4(), name: "Microwave" },
-    { id: uuidv4(), name: "TV Cable" },
-    { id: uuidv4(), name: "Lawn" },
-    { id: uuidv4(), name: "Refrigerator" },
-    { id: uuidv4(), name: "Swimming Pool" },
+    { id: uuidv4(), name: "Aire Acondicionado" },
+    { id: uuidv4(), name: "Parrilla" },
+    { id: uuidv4(), name: "Gimnasio" },
+    { id: uuidv4(), name: "Microondas" },
+    { id: uuidv4(), name: "TV x Cable" },
+    { id: uuidv4(), name: "Jardín" },
+    { id: uuidv4(), name: "Refrigerador" },
+    { id: uuidv4(), name: "Piscina" },
     { id: uuidv4(), name: "WiFi" },
     { id: uuidv4(), name: "Sauna" },
-    { id: uuidv4(), name: "Dryer" },
-    { id: uuidv4(), name: "Washer" },
-    { id: uuidv4(), name: "Laundry" },
-    { id: uuidv4(), name: "Outdoor Shower" },
-    { id: uuidv4(), name: "Window Coverings" },
+    { id: uuidv4(), name: "Secadora de ropa" },
+    { id: uuidv4(), name: "Lavadora de ropa" },
+    { id: uuidv4(), name: "Lavadero" },
+    { id: uuidv4(), name: "Ducha exterior" },
   ]);
 
   const dispath = useDispatch();
@@ -179,7 +178,7 @@ const FilteringItem = () => {
           <input
             type="text"
             className="form-control"
-            placeholder="keyword"
+            placeholder="palabra clave"
             value={getKeyword}
             onChange={(e) => setKeyword(e.target.value)}
           />
@@ -196,7 +195,7 @@ const FilteringItem = () => {
             type="search"
             className="form-control"
             id="exampleInputEmail"
-            placeholder="Location"
+            placeholder="Ubicación"
             value={getLocation}
             onChange={(e) => setLocation(e.target.value)}
           />
@@ -211,38 +210,15 @@ const FilteringItem = () => {
         <div className="search_option_two">
           <div className="candidate_revew_select">
             <select
-              onChange={(e) => setStatus(e.target.value)}
-              className="selectpicker w100 show-tick form-select"
-              value={getStatus}
-            >
-              <option value="">Status</option>
-              <option value="apartment">Apartment</option>
-              <option value="bungalow">Bungalow</option>
-              <option value="condo">Condo</option>
-              <option value="house">House</option>
-              <option value="land">Land</option>
-              <option value="single family">Single Family</option>
-            </select>
-          </div>
-        </div>
-      </li>
-      {/* End li */}
-
-      <li>
-        <div className="search_option_two">
-          <div className="candidate_revew_select">
-            <select
               onChange={(e) => setPropertiesType(e.target.value)}
               className="selectpicker w100 show-tick form-select"
               value={getPropertiesType}
             >
-              <option value="">Property Type</option>
-              <option value="apartment">Apartment</option>
-              <option value="bungalow">Bungalow</option>
-              <option value="condo">Condo</option>
-              <option value="house">House</option>
-              <option value="land">Land</option>
-              <option value="single family">Single Family</option>
+              <option value="">Tipo de propiedad</option>
+              <option value="apartment">Finca</option>
+              <option value="bungalow">Lote</option>
+              <option value="condo">Casa</option>
+              <option value="house">Apartamento</option>
             </select>
           </div>
         </div>
@@ -258,7 +234,7 @@ const FilteringItem = () => {
             data-bs-auto-close="outside"
             aria-expanded="false"
           >
-            <span>Price Range</span>
+            <span>Rango de precio</span>
             <label htmlFor="prncgs2">
               <span className="fa fa-angle-down"></span>
             </label>
@@ -280,13 +256,11 @@ const FilteringItem = () => {
               className="selectpicker w100 show-tick form-select"
               value={getBathroom}
             >
-              <option value="">Bathrooms</option>
+              <option value="">Baños</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
+              <option value="4">+</option>
             </select>
           </div>
         </div>
@@ -301,13 +275,12 @@ const FilteringItem = () => {
               className="selectpicker w100 show-tick form-select"
               value={getBedroom}
             >
-              <option value="">Bedrooms</option>
+              <option value="">Habitaciones</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
               <option value="5">5</option>
-              <option value="6">6</option>
             </select>
           </div>
         </div>
@@ -323,9 +296,8 @@ const FilteringItem = () => {
               value={getGarages}
             >
               <option value="">Garages</option>
-              <option value="yes">Yes</option>
+              <option value="yes">Sí</option>
               <option value="no">No</option>
-              <option value="other">Others</option>
             </select>
           </div>
         </div>
@@ -340,7 +312,7 @@ const FilteringItem = () => {
               className="selectpicker w100 show-tick form-select"
               value={getBuiltYear}
             >
-              <option value="">Year built</option>
+              <option value="">Año</option>
               <option value="2013">2013</option>
               <option value="2014">2014</option>
               <option value="2015">2015</option>
@@ -361,7 +333,7 @@ const FilteringItem = () => {
             type="number"
             className="form-control"
             id="exampleInputName2"
-            placeholder="Min Area"
+            placeholder="Min M2"
             value={getAreaMin}
             onChange={(e) => setAreaMin(e.target.value)}
           />
@@ -375,7 +347,7 @@ const FilteringItem = () => {
             type="number"
             className="form-control"
             id="exampleInputName3"
-            placeholder="Max Area"
+            placeholder="Max M2"
             value={getAreaMax}
             onChange={(e) => setAreaMax(e.target.value)}
           />
@@ -394,7 +366,7 @@ const FilteringItem = () => {
                   data-bs-toggle="collapse"
                   data-bs-parent="#accordion"
                 >
-                  <i className="flaticon-more"></i> Advanced features
+                  <i className="flaticon-more"></i> Filtro avanzado
                 </a>
               </h4>
             </div>
@@ -443,7 +415,7 @@ const FilteringItem = () => {
             type="button"
             className="btn btn-block btn-thm w-100"
           >
-            Clear Filters
+            Limpiar filtro
           </button>
         </div>
       </li>

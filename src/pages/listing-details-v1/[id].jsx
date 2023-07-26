@@ -53,6 +53,25 @@ const ListingDynamicDetailsV1 = () => {
                       ${property?.price}
                     </h2>
                   </div>
+                  <div className="spss style2 mt20 text-end tal-400">
+                    <ul className="mb0">
+                      <li className="list-inline-item">
+                        <a href="#">
+                          <span className="flaticon-heart"></span>
+                        </a>
+                      </li>
+                      <li className="list-inline-item">
+                        <a href="#">
+                          <span className="flaticon-share"></span>
+                        </a>
+                      </li>
+                      <li className="list-inline-item">
+                        <a href="#">
+                          <span className="flaticon-printer"></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
 
                   {/* End activity and social sharing */}
                 </div>

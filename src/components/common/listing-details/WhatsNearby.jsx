@@ -141,16 +141,16 @@ const WhatsNearby = () => {
           {item.singleItem.map((val) => (
             <div className="single_line" key={val.id}>
               <p className="para">
-                {val.name} <span>({val.miles} miles)</span>
+                {val.name} <span>({val.miles} km)</span>
               </p>
-              <ul className="review">
+{/*               <ul className="review">
                 <Ratings />
                 <li className="list-inline-item">
                   <span className="total_rive_count">
                     {val.totalReview} reviews
                   </span>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           ))}
         </div>

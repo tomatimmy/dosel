@@ -52,6 +52,11 @@ const DetailsContent = () => {
       </div>
       {/* End .feature_area */}
 
+      <div className="shop_single_tab_content style2 mt30">
+        <PropertyVideo />
+      </div>
+      {/* End property-video  */}
+
       <div className="application_statics mt30">
         <h4 className="mb30">
           Ubicación{" "}
@@ -73,10 +78,6 @@ const DetailsContent = () => {
       </div>
       {/* End .floor_plane */}
 
-      <div className="shop_single_tab_content style2 mt30">
-        <PropertyVideo />
-      </div>
-      {/* End property-video  */}
 
 
       <div className="whats_nearby mt30">

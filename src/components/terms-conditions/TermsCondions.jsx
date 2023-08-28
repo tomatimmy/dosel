@@ -4,38 +4,59 @@ const TermsCondions = () => {
   const termsContent = [
     {
       id: 1,
-      title: "Políticas de privacidad",
-      text1: `Curabitur massa magna, tempor in blandit id, porta in ligula.
-      Aliquam laoreet nisl massa, at interdum mauris sollicitudin et.
-      Mauris risus lectus, tristique at nisl at, pharetra tristique
-      enim.`,
-      text2: `Nullam this is a link nibh facilisis, at malesuada orci congue.
-      Nullam tempus sollicitudin cursus. Nulla elit mauris, volutpat eu
-      varius malesuada, pulvinar eu ligula. Ut et adipiscing erat.
-      Curabitur adipiscing erat vel libero tempus congue. Nam pharetra
-      interdum vestibulum. Aenean gravida mi non aliquet porttitor.
-      Praesent dapibus, nisi a faucibus tincidunt, quam dolor
-      condimentum metus, in convallis libero ligula ut`,
+      title: "Privacy Policy",
+      text1: `Last Updated: [Date]
+
+      Welcome to Dosel.cr ("us", "we", or "our"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.yourrealestatewebsite.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). Please read this privacy policy carefully.`,
+      text2: `If you do not agree with the terms of this Privacy Policy, please do not access the site.`,
     },
     {
       id: 2,
-      title: "Nuestros términos",
-      text1: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-      mollis et sem sed sollicitudin. Donec non odio neque. Aliquam
-      hendrerit sollicitudin purus, quis rutrum mi accumsan nec. Quisque
-      bibendum orci ac nibh facilisis, at malesuada orci congue. Nullam
-      tempus sollicitudin cursus. Ut et adipiscing erat. Curabitur this
-      is a text link libero tempus congue.`,
-      text2: `Duis mattis laoreet neque, et ornare neque sollicitudin at. Proin
-      sagittis dolor sed mi elementum pretium. Donec et justo ante.
-      Vivamus egestas sodales est, eu rhoncus urna semper eu. Cum sociis
-      natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Integer tristique elit lobortis purus bibendum,
-      quis dictum metus mattis. Phasellus posuere felis sed eros
-      porttitor mattis. Curabitur massa magna, tempor in blandit id,
-      porta in ligula. Aliquam laoreet nisl massa, at interdum mauris
-      sollicitudin et.`,
+      title: "Information We Collect",
+      text1: `We collect information that you provide directly to us. For example, we collect information when you fill out a contact form, subscribe to our newsletter, or interact with our website's features and functionalities. The types of information we may collect include your name, email address, phone number, and any other information you choose to provide.`,
+      text2: `We will never share your information with third parties.`,
     },
+    {
+      id: 3,
+      title: "Your Choices",
+      text1: `You can update your personal information or unsubscribe from our communications at any time by contacting us at [email address]. You may also have rights under applicable data protection laws to access, correct, or delete your personal information.`,
+    },
+    {
+      id: 4,
+      title: "Security",
+      text1: `We are committed to ensuring the security of your personal information. However, please note that no transmission of data over the internet or any other public network can be guaranteed to be 100% secure.`,
+    },
+    {
+      id: 5,
+      title: "Changes to this Privacy Policy",
+      text1: `We may update our Privacy Policy from time to time. The updated version will be posted on this page with the "Last Updated" date revised accordingly.`,
+    },
+    {
+      id: 6,
+      title: "Terms & Conditions",
+      text1: `These terms and conditions outline the rules and regulations for the use of our website [www.dosel.cr], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). By accessing or using the Site, you agree to these terms and conditions. If you do not agree with all of these terms, please do not access or use the Site.`,
+    },
+    {
+    id: 7,
+      title: "Intellectual Property",
+      text1: `All content on this website, including but not limited to text, graphics, images, videos, logos, and other materials, is the property of www.dosel.cr or its content suppliers and protected by copyright and other intellectual property laws. You may not reproduce, distribute, modify, create derivative works of, publicly display, publicly perform, republish, download, store, or transmit any of the material on our website without our prior written consent.`,
+    },
+    {
+      id: 8,
+        title: "Limitation of Liability",
+        text1: `To the fullest extent permitted by applicable law, [Your Real Estate Website] shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses resulting from (i) your use or inability to use the Site; (ii) any unauthorized access to or use of our servers and/or any personal information stored therein.`,
+      },
+      {
+        id: 8,
+          title: "Changes to These Terms and Conditions",
+          text1: `We may update our Terms and Conditions from time to time. The updated version will be posted on this page with the "Last Updated" date revised accordingly.`,
+        },
+        {
+          id: 9,
+            title: "Contact us",
+            text1: `If you have any questions about these Privacy Policies or Terms & Conditions, please contact us at info@dosel.cr`,
+          },
+    
   ];
 
   const navigationList = [

@@ -5,8 +5,8 @@ const CallToAction = () => {
     <div className="row">
       <div className="col-lg-8">
         <div className="start_partner tac-smd">
-          <h2>Ponte en contacto con nosotros</h2>
-          <p>Te brindaremos atención personalizada para ayudarte a encontrar esa propiedad que estas buscando</p>
+          <h2>Contact us</h2>
+          <p>We will provide you with personalized attention to help you find the property you are looking for.</p>
         </div>
       </div>
       {/* End .col */}
@@ -14,7 +14,7 @@ const CallToAction = () => {
       <div className="col-lg-4">
         <div className="parner_reg_btn text-right tac-smd">
           <Link href="/contact" className="btn btn-thm2">
-            Contacto
+            Contact
           </Link>
         </div>
       </div>

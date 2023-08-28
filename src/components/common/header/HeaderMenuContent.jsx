@@ -42,7 +42,7 @@ const HeaderMenuContent = ({ float = "" }) => {
       className="ace-responsive-menu text-end d-lg-block d-none"
       data-menu-style="horizontal"
     >
-      <li className="dropitem">
+{/*       <li className="dropitem">
         <Link
           href="/"
           className={
@@ -98,10 +98,10 @@ const HeaderMenuContent = ({ float = "" }) => {
             </li>
           ))}
         </ul>
-      </li>
+      </li> */}
       {/* End .dropitem */}
 
-      <li className="dropitem">
+      {/* <li className="dropitem">
         <Link
           href="/blog-list-1"
           className={
@@ -116,13 +116,13 @@ const HeaderMenuContent = ({ float = "" }) => {
         >
           <span className="title">Blog</span>
         </Link>
-      </li>
+      </li> */}
       {/* End .dropitem */}
 
 
       <li className={`list-inline-item add_listing ${float}`}>
         <Link href="/contact">
-          <span className="dn-lg">Contacto</span>
+          <span className="dn-lg">Contact</span>
         </Link>
       </li>
       {/* End .dropitem */}

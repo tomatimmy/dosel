@@ -9,14 +9,14 @@ const Footer = () => {
         <div className="footer_about_widget">
           <h4>Dosel Lands Network</h4>
           <p>
-            Estamos reinventando la forma de comprar y vender Propiedades en Costa Rica. Ahora
-            es más fácil encontrar ese lugar que tanto sueñas. Hagamos juntos este viaje.
+          We are reinventing the way to buy and sell Properties in Costa Rica. Now
+             it is easier to find that place you dream of so much. Let's take this journey together.
           </p>
         </div>
       </div>
       {/* End .col */}
 
-      <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
+      {/* <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_qlink_widget">
           <h4>Links</h4>
           <ul className="list-unstyled">
@@ -37,12 +37,12 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
       {/* End .col */}
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_contact_widget">
-          <h4>Contactenos</h4>
+          <h4>Contact us</h4>
           <ul className="list-unstyled">
             <li>
               <a href="mailto:info@findhouse.com">info@dosel.cr</a>
@@ -63,11 +63,11 @@ const Footer = () => {
 
       <div className="col-sm-6 col-md-6 col-lg-3 col-xl-3">
         <div className="footer_social_widget">
-          <h4>Síguenos</h4>
+          {/* <h4>Síguenos</h4>
           <ul className="mb30">
             <Social />
-          </ul>
-          <h4>Subscríbete</h4>
+          </ul> */}
+          <h4>Subscribe</h4>
           <SubscribeForm />
         </div>
       </div>

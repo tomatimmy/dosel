@@ -1187,7 +1187,7 @@ header.header-nav a.navbar_brand {
   display: -o-flex;
   display: flex;
   margin-right: 37px;
-  margin-top: 20px;
+  margin-top: 1%;
   position: relative;
 }
 
@@ -1270,7 +1270,7 @@ header.header-nav.menu_style_home_eight.navbar-scrolltofixed.stricky.animated {
 }
 
 header.header-nav.menu_style_home_one a.navbar_brand {
-  margin-top: 25px;
+
 }
 
 header.header-nav.menu_style_home_one.stricky-fixed a.navbar_brand .logo1,
@@ -4223,7 +4223,7 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 }
 
 .home1_bgi1 {
-  background-image: url(../images/background/11.webp);
+  background-image: url(../images/background/bghome.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -9304,6 +9304,7 @@ ul.ab_counting li:last-child {
   color: rgba(72, 72, 72, 0.8);
   line-height: 1.2;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .team_member.style2 {

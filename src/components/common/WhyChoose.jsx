@@ -3,20 +3,20 @@ const WhyChoose = ({ style = "" }) => {
     {
       id: 1,
       icon: "flaticon-high-five",
-      title: "Confianza",
-      descriptions: `Nuestros partners y clientes garantizan la fiabilidad de operar con nosotros.`,
+      title: "Trust",
+      descriptions: `Our partners and clients guarantee the reliability of operating with us.`,
     },
     {
       id: 2,
       icon: "flaticon-home-1",
-      title: "Catálogo vasto",
-      descriptions: `Contamos con un catálogo de oportunidades único en Costa Rica.`,
+      title: "Vast Catalog",
+      descriptions: `We have a unique catalog of opportunities in Costa Rica.`,
     },
     {
       id: 3,
       icon: "flaticon-profit",
-      title: "Transparencia",
-      descriptions: `La mayor transparencia en el mercado con un 100% de operaciones exitosas.`
+      title: "Transparency",
+      descriptions: `The greatest transparency in the market with 100% successful operations.`
     },
   ];
 

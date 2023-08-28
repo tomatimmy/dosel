@@ -5,7 +5,7 @@ import HomeMain from "../components/home";
 const index = () => {
   return (
     <>
-      <Seo pageTitle="Comprar propiedad en Costa Rica" />
+      <Seo pageTitle="Buy properties in Costa Rica" />
       <HomeMain />
     </>
   );

@@ -3,10 +3,10 @@ import Link from "next/link";
 const CopyrightFooter = () => {
   const menuItems = [
     { id: 1, name: "Home", routeLink: "/" },
-    { id: 2, name: "Propiedades", routeLink: "/listing-grid-v1" },
-    { id: 3, name: "Nuestro Equipo", routeLink: "/about-us" },
-    { id: 4, name: "Términos & Condiciones", routeLink: "/terms" },
-    { id: 5, name: "Contacto", routeLink: "/contact" },
+/*     { id: 2, name: "Propiedades", routeLink: "/listing-grid-v1" },
+    { id: 3, name: "Nuestro Equipo", routeLink: "/about-us" }, */
+    { id: 4, name: "Terms & Conditions", routeLink: "/terms" },
+    { id: 5, name: "Contact", routeLink: "/contact" },
   ];
 
   return (
@@ -35,7 +35,7 @@ const CopyrightFooter = () => {
             >
               @actlikeanomad
             </a>
-            . Todos los derechos reservados.
+            . All rights reserved.
           </p>
         </div>
       </div>

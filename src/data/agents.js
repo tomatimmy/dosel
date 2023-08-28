@@ -16,7 +16,7 @@ module.exports = [
       { icon: "fa-dribbble", liveLink: "https://www.dribbble.com/" },
     ],
     name: `John`,
-    type: "Broker",
+    type: "18 years of experience in production process management, market intelligence for decision making, customer service and marketing.",
     ratings: 4.5,
     noOfListings: "2",
     office: "134 456 3210",
@@ -42,7 +42,7 @@ module.exports = [
       { icon: "fa-dribbble", liveLink: "https://www.dribbble.com/" },
     ],
     name: `Dayan`,
-    type: "Agent",
+    type: "19 years of experience as a lawyer and notary, both in the public and private function, as well as in commercial law and contract drafting.",
     ratings: 5,
     noOfListings: "2",
     office: "134 456 3210",
@@ -53,6 +53,32 @@ module.exports = [
   },
   {
     id: 3,
+    img: "/assets/images/team/9.jpg",
+    socialList: [
+      { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
+      { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
+      {
+        icon: "fa-instagram",
+        liveLink: "https://www.instagram.com/",
+      },
+      {
+        icon: "fa-pinterest",
+        liveLink: "https://www.pinterest.com/",
+      },
+      { icon: "fa-dribbble", liveLink: "https://www.dribbble.com/" },
+    ],
+    name: `Kenneth`,
+    type: "16 years of experience in real estate specializing in the Osa Peninsula, Hotel administration and project management.",
+    ratings: 4.5,
+    noOfListings: "2",
+    office: "134 456 3210",
+    mobile: "891 456 9874",
+    fax: "342 654 1258",
+    email: "kenneth@dosel.cr",
+    city: "New York",
+  },
+  {
+    id: 4,
     img: "/assets/images/team/7.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
@@ -78,7 +104,7 @@ module.exports = [
     city: "Los Angeles",
   },
   {
-    id: 4,
+    id: 5,
     img: "/assets/images/team/8.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
@@ -103,30 +129,4 @@ module.exports = [
     email: "luciano@dosel.cr",
     city: "Miami",
   },
-  {
-    id: 5,
-    img: "/assets/images/team/9.jpg",
-    socialList: [
-      { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
-      { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
-      {
-        icon: "fa-instagram",
-        liveLink: "https://www.instagram.com/",
-      },
-      {
-        icon: "fa-pinterest",
-        liveLink: "https://www.pinterest.com/",
-      },
-      { icon: "fa-dribbble", liveLink: "https://www.dribbble.com/" },
-    ],
-    name: `Kenneth`,
-    type: "Agent",
-    ratings: 4.5,
-    noOfListings: "2",
-    office: "134 456 3210",
-    mobile: "891 456 9874",
-    fax: "342 654 1258",
-    email: "kenneth@dosel.cr",
-    city: "New York",
-  }
 ];

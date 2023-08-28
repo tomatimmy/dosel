@@ -49,7 +49,7 @@ const Team = () => {
                   src={item.img}
                   alt="5.jpg"
                 />
-                <div className="overylay">
+                {/* <div className="overylay">
                   <ul className="social_icon">
                     {item.socialList.map((social, i) => (
                       <li className="list-inline-item" key={i}>
@@ -63,7 +63,7 @@ const Team = () => {
                       </li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
               </div>
               {/* End .thumb */}
 

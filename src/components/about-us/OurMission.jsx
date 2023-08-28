@@ -7,19 +7,19 @@ const OurMission = () => {
       id: 1,
       icon: "flaticon-user",
       number: "+1000",
-      meta: "Clientes",
+      meta: "Clients",
     },
     {
       id: 2,
       icon: "flaticon-home",
-      number: "+100 Propiedaes",
-      meta: "Publicadas",
+      number: "+100 Properties",
+      meta: "Catalog",
     },
     {
       id: 3,
       icon: "flaticon-transfer",
       number: "+$15.000.000",
-      meta: "En ventas",
+      meta: "Sales",
     },
   ];
 
@@ -28,15 +28,13 @@ const OurMission = () => {
       <div className="col-lg-8 col-xl-7">
         <div className="about_content">
           <p className="large">
-            Somos una empresa dedicada a la comericalización de tierras para desarrollo comunitario, vivienda familiar e incentivo conservacionista en la Península de Osa, Costa Rica.
+          We are a company dedicated to the commercialization of land for community development, family housing and conservation incentives in the Osa Peninsula, Costa Rica.
           </p>
           <p>
-            Nos especializamos en la venta de propiedades en la Península de Osa, priorizando el desarrollo sostenible e incentivando la conservación del ecosistema.
+          We specialize in the sale of properties in the Osa Peninsula, prioritizing sustainable development and encouraging the conservation of the ecosystem.
           </p>
           <p>
-            Conectamos a personas y ONGs con propietarios originarios de la Península, con el fin de desarrollar proyectos de viviendas sostenibles, turismo comunitario y conservacion.
-            ¿Por qué lo hacemos?
-            La Península de Osa es considerado «el lugar biológicamente más intenso del mundo en términos de biodiversidad» -según el National Geographic- y necesitamos que así siga siendo. Dentro de sus fronteras, se encuentran los más diversos ecosistemas, compuesto por bosques montanos, bosques nubosos, praderas y manglares, como así también, por un increíble volumen y variedad de vida silvestre. Nuestra misión es promover el desarrollo sostenible y conciente dentro de este entorno, para así ayudar a salvaguardar este ecosistema y sus comunidades, apoyando a familias locales y sus emprendimientos.
+          We connect people and NGOs with owners from the Peninsula, in order to develop sustainable housing projects, community tourism and conservation. Why do we do it? The Osa Peninsula is considered "the most biologically intense place in the world in terms of biodiversity" -according to National Geographic- and we need to keep it that way. Within its borders are the most diverse ecosystems, comprised of montane forests, cloud forests, grasslands, and mangroves, as well as an incredible volume and variety of wildlife. Our mission is to promote sustainable and conscious development within this environment, in order to help safeguard this ecosystem and its communities, supporting local families and their businesses.
           </p>
 
           <ul className="ab_counting">

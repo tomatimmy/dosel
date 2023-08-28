@@ -10,7 +10,7 @@ const Footer = () => {
           <h4>Dosel Lands Network</h4>
           <p>
           We are reinventing the way to buy and sell Properties in Costa Rica. Now
-             it is easier to find that place you dream of so much. Let's take this journey together.
+          it is easier to find that place you dream of so much. Let us take this journey together.
           </p>
         </div>
       </div>

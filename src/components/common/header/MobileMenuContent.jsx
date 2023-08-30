@@ -52,7 +52,7 @@ const MobileMenuContent = () => {
 
       <SidebarContent>
         <Menu>
-        <MenuItem>
+        {/* <MenuItem>
             <Link
               href="/"
               className={
@@ -61,22 +61,19 @@ const MobileMenuContent = () => {
             >
               Home
             </Link>
-          </MenuItem>
+          </MenuItem> */}
           {/* End Home Home */}
 
           <MenuItem>
-            <Link
-              href="/listing-grid-v1"
-              className={
-                route.pathname === "/listing-grid-v1" ? "ui-active" : undefined
-              }
-            >
-              Propiedades
-            </Link>
+          <Link
+          href="/contact"
+          className="btn btn-block btn-lg btn-thm circle"
+        > Contacto
+        </Link>
           </MenuItem>
           {/* End Pages Listing */}
 
-              <SubMenu
+              {/* <SubMenu
                 title="Nosotros"
                 className={
                   pages.some((page) => page.routerPath === route.pathname)
@@ -96,10 +93,10 @@ const MobileMenuContent = () => {
                     </Link>
                   </MenuItem>
                 ))}
-              </SubMenu>
+              </SubMenu> */}
               {/* End pages Pages */}
 
-          <MenuItem>
+          {/* <MenuItem>
             <Link
               href="/blog-list-1"
               className={
@@ -108,19 +105,19 @@ const MobileMenuContent = () => {
             >
               Blog
             </Link>
-          </MenuItem>
+          </MenuItem> */}
           {/* End pages Blog */}
 
         </Menu>
       </SidebarContent>
 
-      <SidebarFooter>
+      {/* <SidebarFooter>
         <Link
           href="/contact"
           className="btn btn-block btn-lg btn-thm circle"
         > Contacto
         </Link>
-      </SidebarFooter>
+      </SidebarFooter> */}
     </ProSidebar>
   );
 };

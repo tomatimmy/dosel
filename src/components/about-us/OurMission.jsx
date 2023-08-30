@@ -64,10 +64,10 @@ const OurMission = () => {
             height={509}
             priority
             className="img-fluid w100 cover"
-            src="/assets/images/about/1.jpg"
+            src="/assets/images/background/bghome.jpg"
             alt="1.jpg"
           />
-          <PopupVideo />
+          {/* <PopupVideo /> */}
         </div>
       </div>
     </>

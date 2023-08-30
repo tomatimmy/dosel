@@ -1,7 +1,7 @@
 module.exports = [
   {
     id: 1,
-    img: "/assets/images/team/5.jpg",
+    img: "/assets/images/team/john.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
@@ -27,7 +27,7 @@ module.exports = [
   },
   {
     id: 2,
-    img: "/assets/images/team/6.jpg",
+    img: "/assets/images/team/dayan.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
@@ -53,7 +53,7 @@ module.exports = [
   },
   {
     id: 3,
-    img: "/assets/images/team/9.jpg",
+    img: "/assets/images/team/kenneth.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
@@ -79,7 +79,7 @@ module.exports = [
   },
   {
     id: 4,
-    img: "/assets/images/team/7.jpg",
+    img: "/assets/images/team/chevy.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
@@ -94,7 +94,7 @@ module.exports = [
       { icon: "fa-dribbble", liveLink: "https://www.dribbble.com/" },
     ],
     name: `Sebastián`,
-    type: "Broker",
+    type: "Photographer, director of photography and documentalist. More than 8 years of experience in marketing and brand positioning.",
     ratings: 3.5,
     noOfListings: "2",
     office: "134 456 3210",
@@ -105,7 +105,7 @@ module.exports = [
   },
   {
     id: 5,
-    img: "/assets/images/team/8.jpg",
+    img: "/assets/images/team/luciano.jpg",
     socialList: [
       { icon: "fa-facebook", liveLink: "https://www.facebook.com/" },
       { icon: "fa-twitter", liveLink: "https://www.twitter.com/" },
@@ -120,7 +120,7 @@ module.exports = [
       { icon: "fa-dribbble", liveLink: "https://www.dribbble.com/" },
     ],
     name: `Luciano`,
-    type: "Broker",
+    type: "10 years of experience in the generation and edition of audiovisual content, marketing and graphic and videographic dissemination for companies and organizations.",
     ratings: 4.5,
     noOfListings: "2",
     office: "134 456 3210",

@@ -47,7 +47,7 @@ const Index = () => {
         </div>
       </section> */}
 
-<section className="about-section">
+<section className="about-section" id="about">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 offset-lg-3">

@@ -14,7 +14,7 @@ const Hero = () => {
       {/* End .container */}
 
       <div className="mouse_scroll">
-        <a href="#feature-property">
+        <a href="#about">
           <div className="icon">
             <h4>Scroll down</h4>
             <p>to see more</p>

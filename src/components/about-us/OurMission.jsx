@@ -37,7 +37,7 @@ const OurMission = () => {
           We connect people and NGOs with owners from the Peninsula, in order to develop sustainable housing projects, community tourism and conservation. Why do we do it? The Osa Peninsula is considered the most biologically intense place in the world in terms of biodiversity -according to National Geographic- and we need to keep it that way. Within its borders are the most diverse ecosystems, comprised of montane forests, cloud forests, grasslands, and mangroves, as well as an incredible volume and variety of wildlife. Our mission is to promote sustainable and conscious development within this environment, in order to help safeguard this ecosystem and its communities, supporting local families and their businesses.
           </p>
 
-          <ul className="ab_counting">
+          {/* <ul className="ab_counting">
             {missionContent.map((item) => (
               <li className="list-inline-item" key={item.id}>
                 <div className="about_counting">
@@ -51,7 +51,7 @@ const OurMission = () => {
                 </div>
               </li>
             ))}
-          </ul>
+          </ul> */}
           {/* End .ab_counting */}
         </div>
       </div>

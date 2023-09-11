@@ -59,7 +59,7 @@ const index = () => {
                   <iframe
                     title="map"
                     className="gmap_iframe"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193309.02147838814!2d-74.53513266718751!3d40.79602810000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663993365939!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7891.25279937629!2d-83.32223291102467!3d8.535602566029308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa466bfcd9cae19%3A0x7b6f56f711bc8!2sEl%20Banb%C3%BA%2C%20Provincia%20de%20Puntarenas%2C%20Puerto%20Jim%C3%A9nez%2C%20Costa%20Rica!5e0!3m2!1ses!2ses!4v1694453366226!5m2!1ses!2ses"
                   ></iframe>
                   {/* End iframe */}
 

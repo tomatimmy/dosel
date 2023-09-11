@@ -29,11 +29,10 @@ const CopyrightFooter = () => {
           <p>
             &copy; {new Date().getFullYear()} by{" "}
             <a
-              href="https://instagram.com/actlikeanomad"
+              href="https://hermanoscorallo.com"
               target="_blank"
-              rel="noreferrer"
             >
-              @actlikeanomad
+              Producciones Hermanos Corallo
             </a>
             . All rights reserved.
           </p>
